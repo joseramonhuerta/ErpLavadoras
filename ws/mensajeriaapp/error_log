@@ -1,0 +1,310 @@
+[07-Jan-2021 11:55:14 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/aceptar_solicitud.php on line 19
+[07-Jan-2021 11:55:14 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/aceptar_solicitud.php:19) in /home/user/public_html/sistema/ws/mensajeriaapp/aceptar_solicitud.php on line 46
+[07-Jan-2021 11:57:02 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/aceptar_solicitud.php on line 19
+[07-Jan-2021 11:57:02 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/aceptar_solicitud.php:19) in /home/user/public_html/sistema/ws/mensajeriaapp/aceptar_solicitud.php on line 46
+[08-Jan-2021 13:35:43 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 22
+[08-Jan-2021 13:35:43 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php:22) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 26
+[09-Jan-2021 13:11:05 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 14
+[09-Jan-2021 13:11:05 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php:14) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 18
+[09-Jan-2021 13:11:09 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 14
+[09-Jan-2021 13:11:09 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php:14) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 18
+[22-Jan-2021 09:47:28 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudencurso.php on line 18
+[22-Jan-2021 09:47:28 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudencurso.php:18) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudencurso.php on line 22
+[25-Jan-2021 17:06:58 America/Mazatlan] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/user/public_html/sistema/ws/mensajeriaapp/registrar_usuario.php on line 35
+[25-Jan-2021 17:14:00 America/Mazatlan] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/user/public_html/sistema/ws/mensajeriaapp/registrar_usuario.php on line 35
+[25-Jan-2021 17:14:02 America/Mazatlan] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/user/public_html/sistema/ws/mensajeriaapp/registrar_usuario.php on line 35
+[25-Jan-2021 17:14:03 America/Mazatlan] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/user/public_html/sistema/ws/mensajeriaapp/registrar_usuario.php on line 35
+[25-Jan-2021 17:14:06 America/Mazatlan] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/user/public_html/sistema/ws/mensajeriaapp/registrar_usuario.php on line 35
+[25-Jan-2021 17:14:42 America/Mazatlan] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/user/public_html/sistema/ws/mensajeriaapp/registrar_usuario.php on line 28
+[25-Jan-2021 17:14:43 America/Mazatlan] PHP Parse error:  syntax error, unexpected '{', expecting '(' in /home/user/public_html/sistema/ws/mensajeriaapp/registrar_usuario.php on line 28
+[25-Jan-2021 17:16:50 America/Mazatlan] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/user/public_html/sistema/ws/mensajeriaapp/registrar_usuario.php on line 59
+[25-Jan-2021 17:21:27 America/Mazatlan] PHP Parse error:  syntax error, unexpected 'catch' (T_CATCH) in /home/user/public_html/sistema/ws/mensajeriaapp/registrar_usuario.php on line 61
+[02-Feb-2021 12:44:36 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 15
+[02-Feb-2021 12:44:36 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php:15) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 19
+[02-Feb-2021 12:45:41 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 15
+[02-Feb-2021 12:45:41 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php:15) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 19
+[02-Feb-2021 12:47:23 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 15
+[02-Feb-2021 12:47:23 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php:15) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 19
+[03-Feb-2021 12:56:28 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 47
+[03-Feb-2021 12:56:28 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:47) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 51
+[03-Feb-2021 12:57:09 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 47
+[03-Feb-2021 12:57:09 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:47) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 51
+[03-Feb-2021 12:57:41 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 47
+[03-Feb-2021 12:57:41 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:47) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 51
+[03-Feb-2021 12:58:32 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 WHERE   ORDER BY p.fecha DESC LIMIT 100;' in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 40
+[03-Feb-2021 12:59:58 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 WHERE   ORDER BY p.fecha DESC LIMIT 1000;' in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:40
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 40
+[03-Feb-2021 13:06:47 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 ORDER BY p.fecha DESC LIMIT 1000;' in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 39
+[03-Feb-2021 13:09:01 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 ORDER BY p.fecha DESC LIMIT 1000;' in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 39
+[03-Feb-2021 13:09:40 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 ORDER BY p.fecha DESC LIMIT 1000;' in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 39
+[03-Feb-2021 13:10:26 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 39
+[03-Feb-2021 13:11:25 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 ORDER BY p.fecha DESC LIMIT 100;' in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 39
+[03-Feb-2021 13:12:07 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 WHERE  (u.nombre_usuario LIKE '%Cerritos, Mazatlán, Sin., México%' OR p.origen LIKE '%Cerritos, Mazatlán, Sin., México%' OR p.destino LIKE '%Cerritos, Mazatlán, Sin., México%' OR p.descripcion_origen LIKE '%Cerritos, Maza in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 39
+[03-Feb-2021 13:12:23 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 WHERE  (u.nombre_usuario LIKE '%Cerritos, Mazatl%' OR p.origen LIKE '%Cerritos, Mazatl%' OR p.destino LIKE '%Cerritos, Mazatl%' OR p.descripcion_origen LIKE '%Cerritos, Mazatl%') AND p.status=1  ORDER BY p.fecha DESC LIMIT 100; in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 39
+[03-Feb-2021 13:18:27 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 54
+[03-Feb-2021 13:18:27 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:54) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 58
+[03-Feb-2021 13:22:24 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 WHERE  (u.nombre_usuario LIKE '%Cerritos, Mazatl%' OR p.origen LIKE '%Cerritos, Mazatl%' OR p.destino LIKE '%Cerritos, Mazatl%' OR p.descripcion_origen LIKE '%Cerritos, Mazatl%') AND ORDER BY p.fecha DESC LIMIT 100;' in /home/u in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 48
+[03-Feb-2021 13:23:27 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_pedido, p.id_usuario,IFNULL(p.id_usuario_mensajero,0) AS id_mensajero,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS fecha,CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y %h:%i %p') AS CHAR) AS hora,
+		u.nombre_usuario AS nombre,p.origen,p.destino,p.descripcion_origen,u.calificacion, p.importe,p.status, CASE p.status WHEN 0 THEN 'PENDIENTE' WHEN 1 THEN 'EN CURSO' WHEN 2 THEN 'FINALIZADA' WHEN 3 THEN 'CANCELADA'END AS descripcion_status,p.origen_latitud,p.origen_longitud,p.destino_latitud,p.destino_longitud,IFNULL(u2.nombre_usuario,'') as nombre_mensajero,u2.celular AS celular_mensajero
+		FROM pedidos p
+		INNER JOIN cat_usuarios u on u.id_usuario = p.id_usuario
+		LEFT JOIN cat_usuarios u2 on u2.id_usuario = p.id_usuario_mensajero
+		 WHERE  (u.nombre_usuario LIKE '%Cerritos, Mazatl%' OR p.origen LIKE '%Cerritos, Mazatl%' OR p.destino LIKE '%Cerritos, Mazatl%' OR p.descripcion_origen LIKE '%Cerritos, Mazatl%')  ORDER BY p.fecha DESC LIMIT 100;' in /home/user in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 48
+[03-Feb-2021 13:26:14 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 54
+[03-Feb-2021 13:26:14 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php:54) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumenadmin.php on line 58
+[05-Feb-2021 11:48:30 America/Mazatlan] PHP Parse error:  syntax error, unexpected '$consulta' (T_VARIABLE) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenerusuarios.php on line 18
+[05-Feb-2021 12:02:11 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenerusuarios.php on line 27
+[05-Feb-2021 12:02:11 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenerusuarios.php:27) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenerusuarios.php on line 31
+[05-Feb-2021 12:03:45 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT id_usuario, nombre_usuario, usuario, status,
+        CASE status 
+        WHEN 'A' THEN 'Activo' 
+        WHEN 'I' THEN 'Inactivo'
+        END AS status_descripcion
+		FROM cat_usuarios WHERE WHERE (nombre_usuario LIKE '%djdjd%' 
+            OR celular LIKE '%djdjd%' 
+            OR usuario LIKE '%djdjd%') AND rol = 1 ORDER BY nombre_usuario' in /home/user/public_html/sistema/ws/mensajeriaapp/obtenerusuarios.php:24
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/obtenerusuarios.php on line 24
+[05-Feb-2021 12:49:24 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 15
+[05-Feb-2021 12:49:24 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php:15) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 19
+[05-Feb-2021 12:49:32 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 15
+[05-Feb-2021 12:49:32 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php:15) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesresumen.php on line 19
+[08-Feb-2021 09:50:48 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php on line 16
+[08-Feb-2021 09:50:48 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php:16) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php on line 20
+[08-Feb-2021 09:52:26 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php on line 16
+[08-Feb-2021 09:52:26 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php:16) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php on line 20
+[08-Feb-2021 09:59:29 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php on line 16
+[08-Feb-2021 09:59:29 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php:16) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php on line 20
+[08-Feb-2021 10:00:10 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php on line 16
+[08-Feb-2021 10:00:10 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php:16) in /home/user/public_html/sistema/ws/mensajeriaapp/obtenersolicitudesprocedure.php on line 20
+[13-Mar-2021 14:53:36 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:53:36 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:53:48 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:53:48 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:54:16 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:54:16 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:54:16 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:54:16 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:54:17 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:54:17 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:55:03 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:55:03 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:55:55 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:55:55 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:55:58 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:55:58 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:55:59 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:55:59 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:00 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:00 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:00 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:00 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:00 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:00 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:01 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:01 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:01 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:01 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:01 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:01 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:01 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:01 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:02 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:02 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:02 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:02 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:02 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:02 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:03 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:03 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:03 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:03 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:03 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:03 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:04 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:04 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:04 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:04 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:04 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:04 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:04 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:04 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:56:05 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:56:05 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:57:09 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:57:09 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:57:11 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:57:11 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:59:46 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:59:46 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 14:59:59 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 14:59:59 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 15:00:02 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 15:00:02 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29
+[13-Mar-2021 15:00:06 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 23
+[13-Mar-2021 15:00:06 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'No se encontro una tarifa válida.' in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php:29
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/mensajeriaapp/registra_nueva_solicitud.php on line 29

@@ -1,0 +1,45 @@
+[17-Aug-2020 22:47:52 UTC] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/lavadorasapp/procesarrecoger.php on line 36
+[18-Aug-2020 19:32:40 UTC] PHP Warning:  include(conexion.php): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 4
+[18-Aug-2020 19:32:40 UTC] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 4
+[18-Aug-2020 19:32:40 UTC] PHP Warning:  include(includes/scripts.php): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 77
+[18-Aug-2020 19:32:40 UTC] PHP Warning:  include(): Failed opening 'includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 77
+[18-Aug-2020 19:32:40 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 81
+[18-Aug-2020 19:32:40 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 81
+[18-Aug-2020 19:32:40 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 138
+[18-Aug-2020 19:32:40 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 138
+[19-Aug-2020 16:18:06 UTC] PHP Parse error:  syntax error, unexpected '$consulta' (T_VARIABLE) in /home/user/public_html/sistema/ws/lavadorasapp/obtenerdatospedidosrecoger.php on line 21
+[19-Aug-2020 16:49:45 UTC] PHP Parse error:  syntax error, unexpected '$consulta' (T_VARIABLE) in /home/user/public_html/sistema/ws/lavadorasapp/obtenerdatospedidosrecoger.php on line 21
+[19-Aug-2020 16:53:44 UTC] PHP Parse error:  syntax error, unexpected '$consulta' (T_VARIABLE) in /home/user/public_html/sistema/ws/lavadorasapp/obtenerdatospedidosrecoger.php on line 21
+[19-Aug-2020 16:59:02 UTC] PHP Parse error:  syntax error, unexpected '$consulta' (T_VARIABLE) in /home/user/public_html/sistema/ws/lavadorasapp/obtenerdatospedidosrecoger.php on line 21
+[28-Aug-2020 11:35:04 America/Mazatlan] PHP Warning:  include(conexion.php): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 4
+[28-Aug-2020 11:35:04 America/Mazatlan] PHP Warning:  include(): Failed opening 'conexion.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 4
+[28-Aug-2020 11:35:04 America/Mazatlan] PHP Warning:  include(includes/scripts.php): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 77
+[28-Aug-2020 11:35:04 America/Mazatlan] PHP Warning:  include(): Failed opening 'includes/scripts.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 77
+[28-Aug-2020 11:35:04 America/Mazatlan] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 81
+[28-Aug-2020 11:35:04 America/Mazatlan] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 81
+[28-Aug-2020 11:35:04 America/Mazatlan] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 138
+[28-Aug-2020 11:35:04 America/Mazatlan] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/user/public_html/sistema/ws/lavadorasapp/index.php on line 138
+[26-Nov-2020 13:42:44 America/Mazatlan] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/user/public_html/sistema/ws/lavadorasapp/registra_cliente.php on line 6
+[26-Nov-2020 13:44:39 America/Mazatlan] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/user/public_html/sistema/ws/lavadorasapp/registra_cliente.php on line 6
+[26-Nov-2020 13:44:47 America/Mazatlan] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/user/public_html/sistema/ws/lavadorasapp/registra_cliente.php on line 6
+[26-Nov-2020 14:14:08 America/Mazatlan] PHP Parse error:  syntax error, unexpected 'if' (T_IF) in /home/user/public_html/sistema/ws/lavadorasapp/registra_cliente.php on line 6
+[01-Dec-2020 12:36:09 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'ramon 1' in /home/user/public_html/sistema/ws/lavadorasapp/rentar_lavadora.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/lavadorasapp/rentar_lavadora.php on line 17
+[01-Dec-2020 12:36:12 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'ramon 1' in /home/user/public_html/sistema/ws/lavadorasapp/rentar_lavadora.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/lavadorasapp/rentar_lavadora.php on line 17
+[01-Dec-2020 12:36:26 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'ramon 1' in /home/user/public_html/sistema/ws/lavadorasapp/rentar_lavadora.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/lavadorasapp/rentar_lavadora.php on line 17
+[01-Dec-2020 12:36:29 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'ramon 1' in /home/user/public_html/sistema/ws/lavadorasapp/rentar_lavadora.php:17
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/lavadorasapp/rentar_lavadora.php on line 17
+[02-Dec-2020 12:41:56 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/lavadorasapp/obtenerrentascliente.php on line 21
+[02-Dec-2020 12:41:56 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/lavadorasapp/obtenerrentascliente.php:21) in /home/user/public_html/sistema/ws/lavadorasapp/obtenerrentascliente.php on line 25
+[02-Dec-2020 12:43:10 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/lavadorasapp/obtenerrentascliente.php on line 21
+[02-Dec-2020 12:43:10 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/lavadorasapp/obtenerrentascliente.php:21) in /home/user/public_html/sistema/ws/lavadorasapp/obtenerrentascliente.php on line 25

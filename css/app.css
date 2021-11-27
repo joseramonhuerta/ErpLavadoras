@@ -1,0 +1,110 @@
+.icon-usuarios  {
+	background-image: url(../images/iconos/user.png) !important;
+	height: 70px;
+	min-width:80px;
+}
+
+.icon-clientes  {
+	background-image: url(../images/iconos/clientes.png) !important;
+	height: 70px;
+	min-width:80px;
+}
+
+.icon-productos  {
+	background-image: url(../images/iconos/productos.png) !important;
+	height: 70px;
+	min-width:80px;
+}
+
+.icon-pedidos  {
+	background-image: url(../images/iconos/facturas.png) !important;
+	height: 70px;
+	min-width:80px;
+}
+
+.icon-asignacion  {
+	background-image: url(../images/iconos/group.png) !important;
+	height: 70px;
+	min-width:80px;
+}
+
+.icon-rentas  {
+	background-image: url(../images/iconos/ordven.png) !important;
+	height: 70px;
+	min-width:80px;
+}
+
+.icon-reportes  {
+	background-image: url(../images/iconos/estadisticas.png) !important;
+	height: 70px;
+	min-width:80px;
+}
+
+.icon-gastos  {
+	background-image: url(../images/iconos/servicios.png) !important;
+	height: 70px;
+	min-width:80px;
+}
+
+.tab-usuarios  {
+	background-image: url(../images/iconos/user.png) !important;
+}
+
+.tab-clientes  {
+	background-image: url(../images/iconos/clientes.png) !important;
+}
+
+.tab-pedidos  {
+	background-image: url(../images/iconos/facturas.png) !important;
+}
+
+.tab-pedidos-nuevo  {
+	background-image: url(../images/iconos/facturas_edit.png) !important;
+}
+
+.tab-pedidos-registro {
+	background-image: url(../images/iconos/facturas.png) !important;
+}
+
+.tab-asignacion  {
+	background-image: url(../images/iconos/group.png) !important;
+}
+
+.tab-asignacion-nuevo  {
+	background-image: url(../images/iconos/group_edit.png) !important;
+}
+
+.tab-asignadas-registro {
+	background-image: url(../images/iconos/group.png) !important;
+}
+
+
+.tab-rentas  {
+	background-image: url(../images/iconos/ordven.png) !important;
+}
+
+.tab-rentas-registro {
+	background-image: url(../images/iconos/ordven.png) !important;
+}
+
+.tab-productos  {
+	background-image: url(../images/iconos/productos.png) !important;
+}
+
+.tab-reportes  {
+	background-image: url(../images/iconos/estadisticas.png) !important;
+}
+
+.tab-gastos  {
+	background-image: url(../images/iconos/servicios.png) !important;
+}
+
+.btn-cobradas  {
+	font:normal 18px arial,tahoma,verdana,helvetica;
+    color:#333;
+}
+.tab-inventarios  {
+	background-image: url(../images/iconos/wooden_box.png) !important;
+}
+
+

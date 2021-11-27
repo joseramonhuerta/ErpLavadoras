@@ -1,0 +1,82 @@
+[17-Sep-2020 10:05:38 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 33
+[17-Sep-2020 10:05:38 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php:33) in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 37
+[17-Sep-2020 10:11:27 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 33
+[17-Sep-2020 10:11:27 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php:33) in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 37
+[17-Sep-2020 10:11:27 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 33
+[17-Sep-2020 10:11:27 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php:33) in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 37
+[17-Sep-2020 14:05:04 America/Mazatlan] PHP Parse error:  syntax error, unexpected '}' in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 19
+[17-Sep-2020 14:05:09 America/Mazatlan] PHP Parse error:  syntax error, unexpected '}' in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 19
+[17-Sep-2020 14:05:09 America/Mazatlan] PHP Parse error:  syntax error, unexpected '}' in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 19
+[17-Sep-2020 14:06:46 America/Mazatlan] PHP Parse error:  syntax error, unexpected '}' in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 19
+[22-Sep-2020 13:19:48 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_orden_servicio, CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y') as CHAR) as fecha,p.nombre_equipo,
+			CONCAT(p.nombre_cliente,' ( ',p.celular,' )') AS nombre_cliente,p.descripcion_falla,p.status_servicio,CASE p.status_servicio WHEN 1 THEN 'RECIBIDO' WHEN 2 THEN 'EN REVISIÓN' WHEN 3 THEN 'COTIZADO' WHEN 4 THEN 'EN REPARACIÓN' WHEN 5 THEN 'REPARADO' WHEN 6 THEN 'ENTREGADO' WHEN 7 THEN 'DEVOLUCION' END AS status_servicio_descripcion,
+			p.id_tecnico
+			FROM ordenes_servicio p  WHERE status_servicio=6 AND ((p.fecha BETWEEN 2020-09-21 AND 2020-09-22) OR status_servicio NOT IN (6,7)) ORDER BY p.fecha DESC' in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 46
+[22-Sep-2020 13:20:33 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT p.id_orden_servicio, CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y') as CHAR) as fecha,p.nombre_equipo,
+			CONCAT(p.nombre_cliente,' ( ',p.celular,' )') AS nombre_cliente,p.descripcion_falla,p.status_servicio,CASE p.status_servicio WHEN 1 THEN 'RECIBIDO' WHEN 2 THEN 'EN REVISIÓN' WHEN 3 THEN 'COTIZADO' WHEN 4 THEN 'EN REPARACIÓN' WHEN 5 THEN 'REPARADO' WHEN 6 THEN 'ENTREGADO' WHEN 7 THEN 'DEVOLUCION' END AS status_servicio_descripcion,
+			p.id_tecnico
+			FROM ordenes_servicio p  WHERE status_servicio=6 AND ((p.fecha BETWEEN '2020-09-21' AND '2020-09-22') OR status_servicio NOT IN (6,7)) ORDER BY p.fecha DESC' in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php:46
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerordenesservicio.php on line 46
+[24-Sep-2020 10:29:47 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/sesion.php on line 17
+[24-Sep-2020 10:29:47 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/sesion.php:17) in /home/user/public_html/sistema/ws/ordenservicioapptest/sesion.php on line 21
+[24-Sep-2020 10:29:54 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/sesion.php on line 17
+[24-Sep-2020 10:29:54 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/sesion.php:17) in /home/user/public_html/sistema/ws/ordenservicioapptest/sesion.php on line 21
+[24-Sep-2020 10:44:20 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/guardarcliente.php on line 48
+[24-Sep-2020 10:44:20 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/guardarcliente.php:48) in /home/user/public_html/sistema/ws/ordenservicioapptest/guardarcliente.php on line 55
+[24-Sep-2020 10:52:09 America/Mazatlan] PHP Warning:  file_put_contents(uploads/JPEG_20200924_103736_4994057172271437295.jpg): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/ordenservicioapptest/guardarordenservicio.php on line 40
+[24-Sep-2020 10:52:09 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/guardarordenservicio.php:40) in /home/user/public_html/sistema/ws/ordenservicioapptest/guardarordenservicio.php on line 139
+[22-Oct-2020 13:25:43 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php on line 16
+[22-Oct-2020 13:25:43 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php:16) in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php on line 20
+[22-Oct-2020 13:25:50 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php on line 16
+[22-Oct-2020 13:25:50 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php:16) in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php on line 20
+[22-Oct-2020 13:42:20 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php on line 16
+[22-Oct-2020 13:42:20 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php:16) in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php on line 20
+[22-Oct-2020 13:44:42 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php on line 16
+[22-Oct-2020 13:44:42 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php:16) in /home/user/public_html/sistema/ws/ordenservicioapptest/obtenerusuario.php on line 20
+[23-Oct-2020 11:21:07 America/Mazatlan] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/user/public_html/sistema/ws/ordenservicioapptest/db_connect.php on line 17
+[23-Oct-2020 11:21:20 America/Mazatlan] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) in /home/user/public_html/sistema/ws/ordenservicioapptest/db_connect.php on line 17
+[12-Nov-2020 14:19:53 America/Mazatlan] PHP Warning:  file_put_contents(uploads/JPEG_20201112_140320_5109140027361534191.jpg): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/guardarordenservicio.php on line 41
+[12-Nov-2020 14:19:53 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapp_refritech/guardarordenservicio.php:41) in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/guardarordenservicio.php on line 140
+[12-Nov-2020 14:20:16 America/Mazatlan] PHP Warning:  file_put_contents(uploads/JPEG_20201112_140320_5109140027361534191.jpg): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/guardarordenservicio.php on line 41
+[12-Nov-2020 14:20:16 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapp_refritech/guardarordenservicio.php:41) in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/guardarordenservicio.php on line 140
+[13-Nov-2020 12:16:27 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenergastos.php on line 42
+[13-Nov-2020 12:16:27 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenergastos.php:42) in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenergastos.php on line 46
+[13-Nov-2020 12:17:23 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT g.id_gasto, CAST(DATE_FORMAT(g.fecha,'%d/%m/%Y') as CHAR) as fecha,g.concepto,
+			g.importe,CASE g.tipo WHEN 1 THEN 'INGRESO' WHEN 2 THEN 'EGRESO' END AS tipo_descripcion			
+			FROM gastos g
+			 WHERE p.fecha BETWEEN '1969-12-31' AND '1969-12-31' ORDER BY g.fecha DESC' in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenergastos.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenergastos.php on line 36
+[13-Nov-2020 12:19:18 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT g.id_gasto, CAST(DATE_FORMAT(g.fecha,'%d/%m/%Y') as CHAR) as fecha,g.concepto,
+			g.importe,CASE g.tipo WHEN 1 THEN 'INGRESO' WHEN 2 THEN 'EGRESO' END AS tipo_descripcion			
+			FROM gastos g
+			 WHERE g.fecha BETWEEN '1969-12-31' AND '1969-12-31' ORDER BY g.fecha DESC' in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenergastos.php:36
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenergastos.php on line 36
+[14-Nov-2020 22:57:16 America/Mazatlan] PHP Warning:  file_put_contents(uploads/JPEG_20201114_224044_2154228558520210700.jpg): failed to open stream: No such file or directory in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/guardarordenservicio.php on line 41
+[14-Nov-2020 22:57:16 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapp_refritech/guardarordenservicio.php:41) in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/guardarordenservicio.php on line 140
+[16-Nov-2020 12:36:14 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 40
+[16-Nov-2020 12:36:14 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php:40) in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 44
+[16-Nov-2020 12:36:26 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 40
+[16-Nov-2020 12:36:26 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php:40) in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 44
+[16-Nov-2020 12:36:41 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 40
+[16-Nov-2020 12:36:41 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php:40) in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 44
+[16-Nov-2020 12:41:48 America/Mazatlan] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, boolean given in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 40
+[16-Nov-2020 12:41:48 America/Mazatlan] PHP Warning:  Cannot modify header information - headers already sent by (output started at /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php:40) in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 44
+[16-Nov-2020 12:42:27 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT CASE tipo WHEN 1 THEN 'INGRESOS' WHEN 2 THEN 'EGRESOS' END AS tipo,SUM(importe) AS total FROM gastos 
+			 WHERE DATE(g.fecha) BETWEEN '1969-12-31' AND '1969-12-31' GROUP BY tipo' in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 34
+[16-Nov-2020 12:42:41 America/Mazatlan] PHP Fatal error:  Uncaught exception 'Exception' with message 'SELECT CASE tipo WHEN 1 THEN 'INGRESOS' WHEN 2 THEN 'EGRESOS' END AS tipo,SUM(importe) AS total FROM gastos 
+			 WHERE DATE(g.fecha) BETWEEN '2020-11-01' AND '2020-11-30' GROUP BY tipo' in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php:34
+Stack trace:
+#0 {main}
+  thrown in /home/user/public_html/sistema/ws/ordenservicioapp_refritech/obtenerreportegastos.php on line 34
