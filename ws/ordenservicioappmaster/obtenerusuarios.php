@@ -10,7 +10,7 @@ $json=array();
 				//1=Administrador,2=Supervisor,3=Vendedor,4=Tecnico,5=Super
 
 		$consulta="SELECT id_usuario, nombre_usuario, usuario, rol, CASE rol WHEN 1 THEN 'Administrador' WHEN 2 THEN 'Supervisor' 
-		WHEN 3 THEN 'Vendedor' WHEN 4 THEN 'Tecnico' END AS rol_descripcion
+		WHEN 3 THEN 'Vendedor' WHEN 4 THEN 'Tecnico' END AS rol_descripcion, CASE STATUS WHEN 'A' THEN 1 ELSE 0 END AS status, CASE STATUS WHEN 'A' THEN 'Activo' ELSE 'Supervisor' END AS status_descripcion
 			FROM cat_usuarios WHERE rol != 5";
 		$resultado=mysqli_query($conexion->getConexion(),$consulta);
 

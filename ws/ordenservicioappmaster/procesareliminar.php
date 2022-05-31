@@ -19,14 +19,14 @@ $msg="";
 			
 			
 			//actualizo la ultima fecha de pago, tambien debo actualizar la ultima fecha de pago y fecha_ultimo vencimiento que es la fecha de pago mas los dias de renta ,fecha_ultimo_vencimiento=ADDDATE(fecha_ultimo_vencimiento,{$dias})
-			$consulta="DELETE FROM ordenes_servicio WHERE id_orden_servicio={$id_orden_servicio}";
-			$resultado=mysqli_query($conexion->getConexion(),$consulta);	
+			//$consulta="DELETE FROM ordenes_servicio WHERE id_orden_servicio={$id_orden_servicio}";
+			//$resultado=mysqli_query($conexion->getConexion(),$consulta);	
 			
 			
 
 			
-			$msg = 'Se elimino la orden de servicio';
-			$json['success'] = true;
+			$msg = 'No se puede eliminar la orden de servicio';
+			$json['success'] = false;
 			$json['msg'] = $msg;
 			$json['datos'][]=[];	
 			

@@ -51,10 +51,11 @@ $json=array();
 			
 		
 		$consulta="SELECT p.id_orden_servicio, CAST(DATE_FORMAT(p.fecha,'%d/%m/%Y') as CHAR) as fecha,p.nombre_equipo,
-			CONCAT(IFNULL(c.nombre_cliente,p.nombre_cliente),' ( ',IFNULL(c.celular,p.celular),' )') AS nombre_cliente,p.descripcion_falla,p.status_servicio,CASE p.status_servicio WHEN 1 THEN 'RECIBIDO' WHEN 2 THEN 'EN REVISIÓN' WHEN 3 THEN 'COTIZADO' WHEN 4 THEN 'EN REPARACIÓN' WHEN 5 THEN 'REPARADO' WHEN 6 THEN 'ENTREGADO' WHEN 7 THEN 'DEVOLUCION' END AS status_servicio_descripcion,
+			IFNULL(CONCAT(IFNULL(c.nombre_cliente,c2.nombre_cliente),' ( ',IFNULL(c.celular,c2.celular),' )'),'Sin Cliente') AS nombre_cliente,p.descripcion_falla,p.status_servicio,CASE p.status_servicio WHEN 1 THEN 'RECIBIDO' WHEN 2 THEN 'EN REVISIÓN' WHEN 3 THEN 'COTIZADO' WHEN 4 THEN 'EN REPARACIÓN' WHEN 5 THEN 'REPARADO' WHEN 6 THEN 'ENTREGADO' WHEN 7 THEN 'DEVOLUCION' WHEN 8 THEN 'EN BODEGA' WHEN 9 THEN 'EN TIENDA' WHEN 10 THEN 'VENDIDA' END AS status_servicio_descripcion,
 			p.id_tecnico
 			FROM ordenes_servicio p 
 			LEFT JOIN cat_clientes c on c.id_cliente = p.id_cliente
+			LEFT JOIN cat_clientes c2 on c2.id_cliente = p.id_cliente_venta
 			$filtroString ORDER BY p.fecha DESC LIMIT $limite";
 			
 			//Throw new Exception($consulta);

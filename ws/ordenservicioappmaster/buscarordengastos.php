@@ -13,7 +13,7 @@ $msg="";
 		try{
 			
 			
-			$consulta="SELECT o.id_orden_servicio, 
+			$consulta="SELECT o.id_orden_servicio, o.nombre_equipo,
 			c.nombre_cliente,o.importe_presupuesto
 			FROM ordenes_servicio o
 			LEFT JOIN cat_clientes c on c.id_cliente = o.id_cliente

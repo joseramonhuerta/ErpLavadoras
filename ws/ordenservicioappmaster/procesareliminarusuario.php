@@ -58,8 +58,14 @@ $msg="";
 			
 		}catch(Exception $e){
 			
-			$msg = $e;
+			$msg = $e->getMessage();
+			$json['success'] = false;
+			$json['msg'] = $msg;
+			$json['datos'][]=[];	
 			
+			$conexion->closeConexion();
+			header('Content-Type: application/json; charset=utf8');
+			echo json_encode($json);
 		
 		
 		}		

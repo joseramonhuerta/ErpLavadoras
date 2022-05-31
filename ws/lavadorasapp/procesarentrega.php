@@ -1,8 +1,11 @@
 <?php 
 require_once('db_connect.php');
-
+$logFile = fopen("log_entregar.txt", 'a') or die("Error creando archivo");
 $json=array();
 $msg="";
+
+	fwrite($logFile, "\n".date("d/m/Y H:i:s")." procesarentrega - Inicio") or die("Error escribiendo en el archivo");
+
 	if(isset($_GET["id_pedido"]) && isset($_GET["id_trabajador"]) && isset($_GET["id_asignacion"]) && isset($_GET["id_producto"]) && isset($_GET["precio_renta"])){
 		$id_pedido=$_GET['id_pedido'];
 		$id_trabajador=$_GET['id_trabajador'];
@@ -11,7 +14,7 @@ $msg="";
 		$importe=$_GET['precio_renta'];	 
 		$id_usuario=$_GET['id_usuario'];
 		
-		
+		fwrite($logFile, "\n".date("d/m/Y H:i:s")." procesarrecoger - Se recibieron los parámetros") or die("Error escribiendo en el archivo");
 		//Cambiar el estatus del pedido a entregada y ligar el producto al pedido, actualizar la ultima fecha pago
 		//Cambiar el estatus de la asignacion de la lavadora a 3=Entregada al cliente		
 		//Generar pago de la lavadora
@@ -41,18 +44,22 @@ $msg="";
 			}
 			//fecha_ultimo_vencimiento=ADDDATE(fecha_ultimo_vencimiento,{$dias})
 			
+			fwrite($logFile, "\n".date("d/m/Y H:i:s")." procesarrecoger - Se actualiza el estatus de la asignacion") or die("Error escribiendo en el archivo");
 			
 			$consulta="UPDATE asignadas SET status_asignacion=3,id_pedido={$id_pedido} WHERE id_asignacion={$id_asignacion}";
 			$resultado=mysqli_query($conexion,$consulta);
 			
 			
+			fwrite($logFile, "\n".date("d/m/Y H:i:s")." procesarrecoger - Insertar pago") or die("Error escribiendo en el archivo");
 			
 			$consulta="INSERT INTO pagos(id_pedido,fecha_pago,importe,status,id_trabajador,origen,usercreador,fechacreador) values({$id_pedido},now(),{$importe},'A',{$id_trabajador},2,{$id_usuario},now())";
 			$resultado=mysqli_query($conexion,$consulta);
 			
 			$id = mysqli_insert_id($conexion);
 			
-			$consulta="UPDATE pedidos SET id_producto={$id_producto},status_pedido=1,fecha_ultimo_pago=now(),fecha_entrega_cliente=now(), id_ultimo_pago={$id} WHERE id_pedido={$id_pedido}";
+			fwrite($logFile, "\n".date("d/m/Y H:i:s")." procesarrecoger - Actualizar pedido") or die("Error escribiendo en el archivo");
+			
+			$consulta="UPDATE pedidos SET id_producto={$id_producto},status_pedido=1,fecha_ultimo_pago=now(),fecha_ultimo_vencimiento=now(),fecha_entrega_cliente=now(), id_ultimo_pago={$id} WHERE id_pedido={$id_pedido}";
 			$resultado=mysqli_query($conexion,$consulta);
 			
 			$consulta="SELECT p.id_pago,CAST(DATE_FORMAT(p.fecha_pago,'%d/%m/%Y %h:%i %p') as CHAR) as fecha_pago,p.importe,
@@ -88,7 +95,7 @@ $msg="";
 			}		
 		}catch(Exception $e){
 			mysqli_close($conexion);
-			$msg = $e;
+			$msg = $e->getMessage();
 			
 		
 		
@@ -102,7 +109,9 @@ $msg="";
 			$json['datos'][]=[];
 			echo json_encode($json);
 	}
-
+fwrite($logFile, "\n".date("d/m/Y H:i:s")." procesarentrega - Mensaje del proceso: ".$msg) or die("Error escribiendo en el archivo");
+fwrite($logFile, "\n".date("d/m/Y H:i:s")." procesarentrega - Fin") or die("Error escribiendo en el archivo");
+fclose($logFile);
 
 
  ?>

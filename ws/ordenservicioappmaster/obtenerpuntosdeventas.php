@@ -1,0 +1,36 @@
+<?php 
+require_once('db_connect_class.php');
+$conexion = new Conexion();
+
+$json=array();
+	
+		$basedatos=$_GET['basedatos'];
+		$conexion->setDataBase($basedatos);
+		$conexion->conectar();
+	
+				
+
+		$consulta="SELECT id_puntodeventa, descripcion_puntodeventa
+			FROM cat_puntosdeventas";
+		$resultado=mysqli_query($conexion->getConexion(),$consulta);
+
+		if($consulta){			
+			while ($row = mysqli_fetch_array($resultado)) {
+                $json[] = $row;
+            }
+			$conexion->closeConexion();
+			header('Content-Type: application/json; charset=utf8');
+			echo json_encode($json);
+		}
+
+		else{
+			$results["id_puntodeventa"]='';
+			$results["descripcion_puntodeventa"]='';
+			
+			$json[]=$results;
+			$conexion->closeConexion();
+			echo json_encode($json);
+		}
+
+
+ ?>

@@ -493,8 +493,10 @@ class PedidoModel extends Model{
 		$query.=",fecha_ultimo_pago='".$fecha_ultimo_pago."'";
 		$query.=",fecha_entrega='".$fecha."'";
 		$query.=",fecha_ultimo_vencimiento='".$fechaUltVenc."'";
+		/*$query.=",status_renta=1";*/
 		$query.=",observaciones='".$this->EscComillas($observaciones)."'";
-		$query.=",precio_renta='".$precio_renta."'";	
+		$query.=",precio_renta='".$precio_renta."'";
+		
 		//$query.=",dias_extra='".$dias_extra."'";	
 		
         $query=$query.$where;

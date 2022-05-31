@@ -1,0 +1,36 @@
+[28-Jan-2022 21:19:05 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/servfix/public_html/erp/stripe-payment/.env]. in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/servfix/public_html/erp/stripe-payment/index.php(7): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[28-Jan-2022 21:34:56 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/servfix/public_html/erp/stripe-payment/../.env]. in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/servfix/public_html/erp/stripe-payment/index.php(7): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[28-Jan-2022 21:35:55 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/servfix/public_html/erp/stripe-payment../../.env]. in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/servfix/public_html/erp/stripe-payment/index.php(7): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[28-Jan-2022 21:37:35 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/servfix/public_html/erp/stripe-payment./../../../.env]. in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/servfix/public_html/erp/stripe-payment/index.php(7): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[28-Jan-2022 21:47:16 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/servfix/public_html/erp/stripe-payment./../../../.env]. in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/servfix/public_html/erp/stripe-payment/index.php(7): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68
+[28-Jan-2022 21:47:49 UTC] PHP Fatal error:  Uncaught Dotenv\Exception\InvalidPathException: Unable to read any of the environment file(s) at [/home/servfix/public_html/erp/stripe-payment./../../../.env]. in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php:68
+Stack trace:
+#0 /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Dotenv.php(222): Dotenv\Store\FileStore->read()
+#1 /home/servfix/public_html/erp/stripe-payment/index.php(7): Dotenv\Dotenv->load()
+#2 {main}
+  thrown in /home/servfix/public_html/erp/stripe-payment/vendor/vlucas/phpdotenv/src/Store/FileStore.php on line 68

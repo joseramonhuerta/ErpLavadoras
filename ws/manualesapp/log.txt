@@ -1,0 +1,22 @@
+
+18/02/2022 18:50:30 generarpagoopenpay - Inicio peticion 
+18/02/2022 18:50:30 generarpagoopenpay - se genera la peticion 
+18/02/2022 18:50:31 generarpagoopenpay - Cargo creado 
+18/02/2022 18:50:31 obtenerrespuestaopenpay - Inicio webhook
+18/02/2022 18:50:31 obtenerrespuestaopenpay - Se recibio el Objeto JSON
+18/02/2022 18:50:31 obtenerrespuestaopenpay - Tipo de operacion: charge.created, event_date: 2022-02-18T12:48:49-06:00, id_trans: trjg4o7yzwmu75zablwf, amount: 30, authorization: 
+18/02/2022 18:50:31 obtenerrespuestaopenpay - La operacion no fue exitosa 
+18/02/2022 19:37:11 generarpagoopenpay - Inicio peticion 
+18/02/2022 19:37:11 generarpagoopenpay - se genera la peticion 
+18/02/2022 19:37:13 generarpagoopenpay - Cargo creado 
+18/02/2022 19:37:14 generarpagoopenpay - Inicio peticion 
+18/02/2022 19:37:14 generarpagoopenpay - se genera la peticion 
+18/02/2022 19:37:14 obtenerrespuestaopenpay - Inicio webhook
+18/02/2022 19:37:14 obtenerrespuestaopenpay - Se recibio el Objeto JSON
+18/02/2022 19:37:14 obtenerrespuestaopenpay - Tipo de operacion: charge.created, event_date: 2022-02-18T13:35:30-06:00, id_trans: trtsc9pm3xm6psuh3mhh, amount: 20, authorization: 
+18/02/2022 19:37:14 obtenerrespuestaopenpay - La operacion no fue exitosa 
+18/02/2022 19:37:15 generarpagoopenpay - Cargo creado 
+18/02/2022 19:37:16 obtenerrespuestaopenpay - Inicio webhook
+18/02/2022 19:37:16 obtenerrespuestaopenpay - Se recibio el Objeto JSON
+18/02/2022 19:37:16 obtenerrespuestaopenpay - Tipo de operacion: charge.created, event_date: 2022-02-18T13:35:33-06:00, id_trans: trfowykqan1eomr1nhwi, amount: 20, authorization: 
+18/02/2022 19:37:16 obtenerrespuestaopenpay - La operacion no fue exitosa 
