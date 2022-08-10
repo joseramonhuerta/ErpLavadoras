@@ -57,8 +57,8 @@ $barcode_url = $_GET['barcode_url'];
 	<table>
         <tr>
         	<td width="50px" class="divimporte"></td>
-        	<td><p style="font-size:20px;font-weight: bold;text-align:right;">Servicio a pagar </p></td>
-			<td><img src="https://erp.servfix.com.mx/ws/manualesapp/images/recibopaynet/logo_paynet.jpg" width="125" height="75"></td>		
+        	<td width="200px"><p style="font-size:20px;font-weight: bold;text-align:right;">Servicio a pagar </p></td>
+			<td><img src="images/recibopaynet/logo_orientec.png" width="200" height="75" style="float: right;"></td>		
         </tr>  
         <tr>
         	<td></td>	
@@ -86,7 +86,10 @@ $barcode_url = $_GET['barcode_url'];
           </td>   
         </tr>
 		<tr>
-		<td colspan="3"><img src="https://erp.servfix.com.mx/ws/manualesapp/images/recibopaynet/Horizontal_1.jpg" width="450" height="150"></td>
+		<td colspan="3"><p style="font-size:20px;font-weight: bold;">Pague en:</p></td>
+		</tr>
+		<tr>
+		<td colspan="3"><img src="images/recibopaynet/Horizontal_1.jpg" width="450" height="150"></td>
 		</tr>
 	</table> 
 

@@ -5,12 +5,14 @@ $json=array();
 		$id_usuario=(empty($_GET['id_usuario'])) ? 0 : $_GET['id_usuario'];	
 				
 		
-		$consulta="SELECT m.id_manual, m.nombre_manual,um.comision,c.nombre_categoria, um.comision AS precio, m.url_portada
+		$consulta="SELECT m.id_manual, m.nombre_manual,um.comision,c.nombre_categoria, um.comision AS precio, m.url_portada, um.id_usuario_manual,CAST(DATE_FORMAT(um.fecha,'%d/%m/%Y') AS CHAR) AS fecha,
+					IFNULL(CONCAT(u.nombre_usuario,' ',u.paterno_usuario,' ',IFNULL(u.materno_usuario,'')),'') AS nombre_usuario
 					FROM cat_usuarios_manuales um
 					LEFT JOIN cat_manuales m ON um.id_manual = m.id_manual
-					LEFT JOIN cat_categorias c ON c.id_categoria = m.id_categoria  
+					LEFT JOIN cat_categorias c ON c.id_categoria = m.id_categoria
+					INNER JOIN cat_usuarios u ON u.id_usuario = um.id_usuario  
 					WHERE m.id_usuario_creador = {$id_usuario} AND um.autorizado = 1
-					ORDER BY m.id_manual ASC";
+					ORDER BY um.fecha DESC, um.id_usuario_manual DESC";
 					
 
 		$resultado=mysqli_query($conexion,$consulta);

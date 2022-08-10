@@ -1,0 +1,5 @@
+13/06/2022 Calendario de descanzos para los sabados, para Juan Gaby y Ramon. un sabado por mes
+13/06/2022 Agregar a la pantalla de cursos vendidos, informacion del usuario que compro el curso, fecha de compra y folio de la venta(ID del registro)
+
+
+

@@ -24,14 +24,26 @@ if(isset($_POST)){
 			values({$id_usuario}, now())";
 			$resultado=mysqli_query($conexion,$consulta);
 			$id = mysqli_insert_id($conexion);	
-		}		
-			
-		$consulta="INSERT INTO carrito_compras_detalles(id_carrito_compras,id_manual) 
-		values({$id},  {$id_manual})";
+		}
+		
+		//buscar el importe del manual		
+		$consulta_manual = "SELECT IFNULL(precio,0) AS importe FROM cat_manuales WHERE id_manual = {$id_manual}";
+		$resultado_manual = mysqli_query($conexion,$consulta_manual);
+		$registro_manual = mysqli_fetch_array($resultado_manual);
+		$importe_manual = $registro_manual['importe'];
+
+		
+		//insertar el detalle del carrito de compras,		
+		$consulta="INSERT INTO carrito_compras_detalles(id_carrito_compras,id_manual, importe) 
+	values({$id},  {$id_manual}, '{$importe_manual}')";
 		//if($debug == 1)
 			//Throw new Exception($consulta);
 		$resultado=mysqli_query($conexion,$consulta);
-			
+		
+		//actualizar el total del carrito de compras, sumar lo que ya tiene con el importe del nuevo curos		
+		$consulta_carrito="UPDATE carrito_compras SET total_carrito = total_carrito + {$importe_manual} WHERE id_carrito_compras={$id}";
+		$resultado_carrito=mysqli_query($conexion,$consulta_carrito);
+		
 		
 		$consulta="SELECT id_carrito_compras
 		FROM carrito_compras

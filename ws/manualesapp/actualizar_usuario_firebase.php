@@ -7,7 +7,7 @@ $json=array();
 
 if(isset($_POST["id_usuario"]) && isset($_POST["id_usuario_firebase"])){
 	$id_usuario = $_POST['id_usuario'];
-	$id_usuario_firebase = $_POST['id_usuario_firebase'];
+	$id_usuario_firebase = $_POST['id_usuario_firebase'];	
 		
 	try{
 	

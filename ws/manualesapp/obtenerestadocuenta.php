@@ -6,7 +6,7 @@ $json=array();
 		
 		$consulta="SELECT CAST(DATE_FORMAT(uec.fecha,'%d/%m/%Y') as CHAR) AS fecha,uec.concepto,uec.cargo,uec.abono,uec.saldo FROM cat_usuarios_estadocuenta uec
 					INNER JOIN cat_usuarios u ON u.id_usuario = uec.id_usuario
-					WHERE uec.id_usuario = {$id_usuario} ORDER BY uec.fecha ASC";					
+					WHERE uec.id_usuario = {$id_usuario} ORDER BY uec.fecha ASC,id_usuario_estadocuenta ASC";					
 
 		$resultado=mysqli_query($conexion,$consulta);
 

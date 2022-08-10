@@ -24,7 +24,7 @@ if(isset($_GET['id_usuario']) && isset($_GET['fechainicio']) && isset($_GET['fec
 
 		$consulta = "SELECT IFNULL(uec.saldo,0) AS saldo FROM cat_usuarios_estadocuenta uec
 					INNER JOIN cat_usuarios u ON u.id_usuario = uec.id_usuario
-					WHERE uec.id_usuario = {$id_usuario} ORDER BY uec.fecha DESC LIMIT 1";
+					WHERE uec.id_usuario = {$id_usuario} ORDER BY uec.fecha DESC, uec.id_usuario_estadocuenta DESC LIMIT 1";
 					
 		$resultado=mysqli_query($conexion,$consulta);				
 			

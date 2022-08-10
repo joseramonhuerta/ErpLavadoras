@@ -2,7 +2,7 @@
 require_once('db_connect.php');
 require_once '/home/servfix/public_html/erp/vendor/autoload.php';
 use Openpay\Data\Openpay as Openpay;
-Openpay::setProductionMode(false);
+Openpay::setProductionMode(true);
 $logFile = fopen("log.txt", 'a') or die("Error creando archivo");
 
 fwrite($logFile, "\n".date("d/m/Y H:i:s")." generarpagoopenpay - Inicio peticion ") or die("Error escribiendo en el archivo");
